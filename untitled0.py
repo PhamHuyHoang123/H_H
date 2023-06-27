@@ -4,8 +4,7 @@ from dash import dcc as dcc
 from dash.dependencies import Input, Output
 import pandas as pd
 import plotly.express as px
-import random
-from random import foo
+
 
 #getting the dataset
 
@@ -18,8 +17,8 @@ app = dash.Dash(__name__)
 #layout
 app.layout = html.Div(children = [
     html.Div([
-        html.H1(children = 'Financial Analysis of Adidas',
-                style={'text-align': 'center'})
+        html.H1(children = 'Financial Analysis of Adidas'
+                )
     ]),
     html.Div([
         html.Div([
