@@ -17,8 +17,8 @@ app = dash.Dash(__name__)
 #layout
 app.layout = html.Div(children = [
     html.Div([
-        html.H1(children = 'Financial Analysis of Adidas'
-                )
+        html.H1(children = 'Financial Analysis of Adidas',
+                style={'text-align': 'center'})
     ]),
     html.Div([
         html.Div([
