@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.express as px
 
 #getting the dataset
-pro = pd.read_csv('C:/Users/huyho/Documents/code/data/Coffee_Chain.csv')
+pro = pd.read_csv('https://raw.githubusercontent.com/PhamHuyHoang123/H_H/main/Coffee_Chain.csv')
 
 # remove commas from 'Budget_sales' column and convert to integers
 pro['Budget_sales'] = pro['Budget_sales'].str.replace(',', '').astype(int)
